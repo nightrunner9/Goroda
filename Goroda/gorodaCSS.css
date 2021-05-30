@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(221, 160, 221); 
+}
+#divParent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#content_container{
+    width: 100%;
+    height: 100px;
+}
+#text_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#submit_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+#text_1,
+#text_2{
+    width: 280px;
+    height: 38px;
+    background-color: transparent;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    font-family: 'Oswald';
+    font-size: 24px;
+    color:rgb(56, 56, 56);
+    outline: none;
+}
+#sub_1,
+#sub_2{
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    font-family: 'Oswald';
+    font-size: 18px;
+    transition: 1s;
+    outline: none;
+}
+#sub_2:hover,
+#sub_1:hover {
+    background-color: rgb(212, 114, 212);
+}
+
